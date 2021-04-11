@@ -1,0 +1,42 @@
+
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(1);
+  position: relative;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/barbershopws-9cd99.appspot.com/o/homePage%2Fpexels-nick-demou-1319461.webp?alt=media&token=2e45516a-137f-48dc-a904-abe0630c719b");
+  &__txt {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color: rgb(09, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 4em;
+      color: white;
+    }
+  }
+}
+
+.about {
+  height: auto;
+  width: 100%;
+  background: #fcfafa;
+  img {
+    height: 550px;
+    width: 380px;
+  }
+  &__items {
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
